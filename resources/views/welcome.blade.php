@@ -19,13 +19,23 @@
                         <a href="{{ route('login') }}">LOGIN</a>
 
                         @if (Route::has('register'))
-                        <a href="{{ route('register') }}" >REGISTER</a>
+                        <a href="{{ route('register') }}" >SIGN UP</a>
                         @endif
                     @endif
              @endif 
             </div>
         </div>  
     </header>
+    <main>
+        <div class="main_img">
+            <img src="/img/inventory.png">
+        </div>
+        <div class="main_title">
+            <h1>Hello!!</h1>
+            <h2>Inventory <br>
+            <span class="color">Management</span> Systems</h2>
+        </div>
+    </main>
     <script src="/js/app.js"></script>
     </body>
 </html>
